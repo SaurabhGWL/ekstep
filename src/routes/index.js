@@ -28,6 +28,12 @@ const routData = [
         requiresAuth: true,
     },
     {
+        id: 'route-005',
+        path: '/assesment',
+        component: reviews.Assesment,
+        requiresAuth: true,
+    },
+    {
         id: 'route-000',
         path: '*',
         component: reviews.NoPageFound,
