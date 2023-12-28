@@ -6,7 +6,7 @@ import arrow from '../../assets/images/ic-arrow.svg';
 
 const SpeakSentenceComponent = () => {
   return (
-    <Box sx={{ backgroundColor: '#FFA726', minHeight: '100vh', padding: '20px 100px', boxSizing: 'border-box' }}>
+    <Box sx={{background: 'linear-gradient(45deg, #FF730E 30%, #FFB951 90%)', minHeight: '100vh', padding: '20px 100px', boxSizing: 'border-box' }}>
       <IconButton>
         <img src={back} alt='back' style={{ height: '30px' }} />
       </IconButton>
