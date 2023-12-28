@@ -16,9 +16,15 @@ const routData = [
         requiresAuth: true,
     },
     {
-        id: 'route-002',
+        id: 'route-003',
         path: '/discover-end',
         component: reviews.DiscoverEnd,
+        requiresAuth: true,
+    },
+    {
+        id: 'route-004',
+        path: '/practice',
+        component: reviews.PracticePage,
         requiresAuth: true,
     },
     {
