@@ -6,12 +6,6 @@ const AppContent = ({ routes }) => {
     const navigate = useNavigate();
     const location = useLocation();
 
-    useEffect(() => {
-        location.pathname === '/' && navigate('/login');
-        location.pathname === '' && navigate('/login');
-
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
 
     return (
         <Fragment>
